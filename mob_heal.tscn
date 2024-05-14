@@ -1,0 +1,243 @@
+[gd_scene load_steps=6 format=3 uid="uid://cdkwcyftsbsrc"]
+
+[ext_resource type="Script" path="res://mob_heal.gd" id="1_qp260"]
+[ext_resource type="Texture2D" uid="uid://b7rhtttevhxtj" path="res://characters/ground_shadow.png" id="2_fpj5s"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_eyu23"]
+bg_color = Color(1, 0, 0.0117647, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+expand_margin_left = 21.0
+expand_margin_top = 7.0
+expand_margin_right = 21.0
+expand_margin_bottom = 7.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d3x80"]
+bg_color = Color(1, 0, 0, 1)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6ge7k"]
+size = Vector2(95, 84.3759)
+
+[node name="StaticBody2D" type="StaticBody2D"]
+scale = Vector2(0.730667, 0.730667)
+collision_layer = 20
+collision_mask = 4
+script = ExtResource("1_qp260")
+
+[node name="GroundShadow" type="Sprite2D" parent="."]
+modulate = Color(0.643851, 0.748544, 0.758368, 1)
+position = Vector2(-1.5, 37)
+scale = Vector2(1.4881, 1)
+texture = ExtResource("2_fpj5s")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -25.0
+offset_top = -51.0
+offset_right = -14.0
+offset_bottom = -11.0
+color = Color(1, 0, 0.0166664, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect" type="ColorRect" parent="ColorRect"]
+layout_mode = 0
+offset_left = 35.0
+offset_right = 46.0
+offset_bottom = 40.0
+color = Color(1, 0, 0.0117647, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect2" type="ColorRect" parent="ColorRect"]
+layout_mode = 0
+offset_left = 46.0
+offset_top = -2.0
+offset_right = 57.0
+offset_bottom = 44.0
+rotation = 1.5708
+color = Color(0.905297, 0, 0.0121893, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ProgressBar2" type="ProgressBar" parent="."]
+offset_left = -26.0
+offset_top = -26.0
+offset_right = 25.0
+offset_bottom = 24.0
+theme_override_styles/background = SubResource("StyleBoxFlat_eyu23")
+theme_override_styles/fill = SubResource("StyleBoxFlat_d3x80")
+value = 100.0
+show_percentage = false
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect5" type="ColorRect" parent="."]
+visible = false
+light_mask = 4
+visibility_layer = 4
+offset_left = 6.0
+offset_top = 21.0
+offset_right = 8.0
+offset_bottom = 34.0
+rotation = 1.5708
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect5" type="ColorRect" parent="ColorRect5"]
+visible = false
+light_mask = 4
+visibility_layer = 4
+layout_mode = 0
+offset_left = -15.0
+offset_top = 29.0
+offset_right = -13.0
+offset_bottom = 42.0
+rotation = 1.5708
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect5" type="ColorRect" parent="ColorRect5/ColorRect5"]
+visible = false
+light_mask = 4
+visibility_layer = 4
+layout_mode = 0
+offset_left = -16.0
+offset_top = 29.0
+offset_right = -14.0
+offset_bottom = 42.0
+rotation = 1.5708
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect5" type="ColorRect" parent="ColorRect5/ColorRect5/ColorRect5"]
+visible = false
+light_mask = 4
+visibility_layer = 4
+layout_mode = 0
+offset_left = -16.0
+offset_top = 29.0
+offset_right = -14.0
+offset_bottom = 42.0
+rotation = 1.5708
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect3" type="ColorRect" parent="."]
+light_mask = 4
+visibility_layer = 4
+offset_left = 22.0
+offset_top = -7.0
+offset_right = 35.0
+offset_bottom = 38.0
+rotation = 1.5708
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect4" type="ColorRect" parent="."]
+light_mask = 4
+visibility_layer = 4
+offset_left = -7.0
+offset_top = -23.0
+offset_right = 6.0
+offset_bottom = 21.0
+metadata/_edit_use_anchors_ = true
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, -11.1879)
+shape = SubResource("RectangleShape2D_6ge7k")
+
+[node name="ColorRect6" type="ColorRect" parent="."]
+visible = false
+light_mask = 4
+visibility_layer = 4
+offset_left = 24.0
+offset_top = 6.0
+offset_right = 26.0
+offset_bottom = 24.0
+rotation = 1.5708
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect6" type="ColorRect" parent="ColorRect6"]
+light_mask = 4
+visibility_layer = 4
+layout_mode = 0
+offset_left = 17.0001
+offset_top = 15.9999
+offset_right = 19.0001
+offset_bottom = 32.9999
+rotation = 1.5708
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect6" type="ColorRect" parent="ColorRect6/ColorRect6"]
+light_mask = 4
+visibility_layer = 4
+layout_mode = 0
+offset_left = 33.0001
+offset_top = 14.9998
+offset_right = 35.0001
+offset_bottom = 31.9998
+rotation = 1.5708
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect6" type="ColorRect" parent="ColorRect6/ColorRect6/ColorRect6"]
+light_mask = 4
+visibility_layer = 4
+layout_mode = 0
+offset_left = 33.0002
+offset_top = 15.9996
+offset_right = 35.0002
+offset_bottom = 34.9996
+rotation = 1.5708
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect6" type="ColorRect" parent="ColorRect6/ColorRect6/ColorRect6/ColorRect6"]
+light_mask = 4
+visibility_layer = 4
+layout_mode = 0
+offset_left = 33.0
+offset_top = 16.0
+offset_right = 35.0
+offset_bottom = 32.0
+rotation = 1.5708
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect7" type="ColorRect" parent="."]
+visible = false
+light_mask = 4
+visibility_layer = 4
+offset_left = -7.0
+offset_top = -8.0
+offset_right = -5.0
+offset_bottom = 10.0
+rotation = 1.5708
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect7" type="ColorRect" parent="ColorRect7"]
+light_mask = 4
+visibility_layer = 4
+layout_mode = 0
+offset_left = 1.0
+offset_top = -15.0
+offset_right = 3.0
+offset_bottom = 3.0
+rotation = 1.5708
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect7" type="ColorRect" parent="ColorRect7/ColorRect7"]
+light_mask = 4
+visibility_layer = 4
+layout_mode = 0
+offset_left = 15.0
+offset_top = -30.0
+offset_right = 17.0
+offset_bottom = -13.0
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true

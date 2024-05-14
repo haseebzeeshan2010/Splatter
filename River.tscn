@@ -1,0 +1,216 @@
+[gd_scene load_steps=45 format=3 uid="uid://d4lvjs6uiijro"]
+
+[ext_resource type="Script" path="res://StaticBody2D.gd" id="1_oawtj"]
+[ext_resource type="Texture2D" uid="uid://bfqmmlmveaon2" path="res://river_anim/costume1.svg" id="2_00mk7"]
+[ext_resource type="Texture2D" uid="uid://dxgm2peq16k7g" path="res://river_anim/costume3.svg" id="3_03078"]
+[ext_resource type="Texture2D" uid="uid://bdv263hec6ww7" path="res://river_anim/costume4.5.svg" id="4_dx44i"]
+[ext_resource type="Texture2D" uid="uid://ibrmi0i0qoj6" path="res://river_anim/costume4.svg" id="5_mw5hs"]
+[ext_resource type="Texture2D" uid="uid://cijb1smy7hy2f" path="res://river_anim/costume5.svg" id="6_vf726"]
+[ext_resource type="Texture2D" uid="uid://bxficbgqwc13f" path="res://river_anim/costume6.svg" id="7_82kji"]
+[ext_resource type="Texture2D" uid="uid://c2vxmt8tmrsjo" path="res://river_anim/costume7.svg" id="8_f2n6u"]
+[ext_resource type="Texture2D" uid="uid://crs2u2hftut1k" path="res://river_anim/costume8.svg" id="9_7rq8i"]
+[ext_resource type="Texture2D" uid="uid://bpceoa3b2hwv8" path="res://river_anim/costume9.svg" id="10_nmswl"]
+[ext_resource type="Texture2D" uid="uid://eiwf6l8yxrey" path="res://river_anim/costume10.svg" id="11_y3hhv"]
+[ext_resource type="Texture2D" uid="uid://mfs1mk6klk6r" path="res://river_anim/costume11.svg" id="12_bj5qu"]
+[ext_resource type="Texture2D" uid="uid://bflmvjoejy2o0" path="res://river_anim/costume12.svg" id="13_njoax"]
+[ext_resource type="Texture2D" uid="uid://cu171x7okawpg" path="res://river_anim/costume13.svg" id="14_eq0q2"]
+[ext_resource type="Texture2D" uid="uid://bgvu7x7u75eu2" path="res://river_anim/costume14.svg" id="15_wq8vx"]
+[ext_resource type="Texture2D" uid="uid://c2gcq24tx2v37" path="res://river_anim/costume15.svg" id="16_vevek"]
+[ext_resource type="Texture2D" uid="uid://i2vqihon1fcv" path="res://river_anim/costume16.svg" id="17_2xc4x"]
+[ext_resource type="Texture2D" uid="uid://cop0ovp7fj7ox" path="res://river_anim/costume17.svg" id="18_x8go7"]
+[ext_resource type="Texture2D" uid="uid://u6m5t1fu7fns" path="res://river_anim/costume18.svg" id="19_cr8ct"]
+[ext_resource type="Texture2D" uid="uid://c5swyrrj23kmn" path="res://river_anim/costume19.svg" id="20_6lq6t"]
+[ext_resource type="Texture2D" uid="uid://b4hkv6bkvdwi0" path="res://river_anim/costume20.svg" id="21_s47jt"]
+[ext_resource type="Texture2D" uid="uid://caukidvm7t3bd" path="res://river_anim/costume21.svg" id="22_t3ili"]
+[ext_resource type="Texture2D" uid="uid://d3s0qb72gn760" path="res://river_anim/costume22.svg" id="23_e3p1c"]
+[ext_resource type="Texture2D" uid="uid://bkbt0anpfx23s" path="res://river_anim/costume23.svg" id="24_p8f16"]
+[ext_resource type="Texture2D" uid="uid://dsipegkn88kma" path="res://river_anim/costume24.svg" id="25_1l2j1"]
+[ext_resource type="Texture2D" uid="uid://cdx3m4n7c62ie" path="res://river_anim/costume25.svg" id="26_rssxe"]
+[ext_resource type="Texture2D" uid="uid://cfwkuq0t6pp1p" path="res://river_anim/costume26.svg" id="27_nvmfp"]
+[ext_resource type="Texture2D" uid="uid://3dmjrbuj5vda" path="res://river_anim/costume27.svg" id="28_f78bl"]
+[ext_resource type="Texture2D" uid="uid://b3gikhfmuqe56" path="res://river_anim/costume28.svg" id="29_gyaaj"]
+[ext_resource type="Texture2D" uid="uid://g3ekpfriush1" path="res://river_anim/costume29.svg" id="30_1o36k"]
+[ext_resource type="Texture2D" uid="uid://b5d062nadbi2i" path="res://river_anim/costume30.svg" id="31_31tsm"]
+[ext_resource type="Texture2D" uid="uid://cn1exoobtwxfg" path="res://river_anim/costume31.svg" id="32_05bpx"]
+[ext_resource type="Texture2D" uid="uid://cg5c6hljalbwt" path="res://river_anim/costume32.svg" id="33_jw22i"]
+[ext_resource type="Texture2D" uid="uid://ulpw2ls86nj5" path="res://river_anim/costume33.svg" id="34_8g18i"]
+[ext_resource type="Texture2D" uid="uid://cltun5k4npp2e" path="res://river_anim/costume36.svg" id="35_yuhpo"]
+[ext_resource type="Texture2D" uid="uid://ct38n5qdiesux" path="res://river_anim/costume37.svg" id="36_7y0v8"]
+[ext_resource type="Texture2D" uid="uid://bg8mf2vr5n8ov" path="res://river_anim/costume41.svg" id="37_gm6f4"]
+[ext_resource type="Texture2D" uid="uid://dglnjhxaif7iq" path="res://river_anim/costume42.svg" id="38_s5kbv"]
+[ext_resource type="Texture2D" uid="uid://chp0lmaxjd3jp" path="res://river_anim/costume43.svg" id="39_kps7d"]
+[ext_resource type="Texture2D" uid="uid://d1hj73ihbaa0v" path="res://river_anim/costume44.svg" id="40_2l16u"]
+[ext_resource type="Texture2D" uid="uid://c6uch1vqigw6d" path="res://river_anim/costume45.svg" id="41_vn47u"]
+[ext_resource type="Texture2D" uid="uid://oi0jpw30k72i" path="res://river_anim/costume46.svg" id="42_pxk1t"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8fchn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_00mk7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_03078")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_dx44i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_mw5hs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_vf726")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_82kji")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_f2n6u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_7rq8i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_nmswl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_y3hhv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_bj5qu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_njoax")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_eq0q2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_wq8vx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_vevek")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_2xc4x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_x8go7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_cr8ct")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_6lq6t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_s47jt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_t3ili")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_e3p1c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_p8f16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_1l2j1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_rssxe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_nvmfp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_f78bl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_gyaaj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_1o36k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_31tsm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_05bpx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_jw22i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_8g18i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_yuhpo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_7y0v8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_gm6f4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_s5kbv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_kps7d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_2l16u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_vn47u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_pxk1t")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="Curve2D" id="Curve2D_1kt54"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -426, -91, 0, 0, 0, 0, -112, -176, 0, 0, 0, 0, 41, -198, 0, 0, 0, 0, 298, -176, 0, 0, 0, 0, 403, -125, 0, 0, 0, 0, 502, -60, 0, 0, 0, 0, 530, 104, 0, 0, 0, 0, 287, 150, 0, 0, 0, 0, 177, 124, 0, 0, 0, 0, 30, 144, 0, 0, 0, 0, -262, 181, 0, 0, 0, 0, -417, 184, 0, 0, 0, 0, -488, 110, 0, 0, 0, 0, -477, -74, 0, 0, 0, 0, -426, -91, 0, 0, 0, 0, -454, 133, 0, 0, 0, 0, -417, 215)
+}
+point_count = 17
+
+[node name="River" type="StaticBody2D"]
+z_index = -3
+collision_layer = 48
+collision_mask = 16
+script = ExtResource("1_oawtj")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2(-1023.5, -506.4)
+polygon = PackedVector2Array(540, 497, 565, 441, 668, 404, 832, 358, 1056, 319, 1170, 319, 1270, 333, 1366, 372, 1441, 422, 1505, 497, 1538, 575, 1526, 596, 1483, 620, 1374, 645, 1295, 645, 1230, 641, 1035, 612, 998, 612, 960, 617, 942, 629, 940, 645, 946, 672, 970, 709, 972, 732, 959, 741, 928, 740, 869, 725, 789, 705, 715, 680, 613, 633, 556, 587, 533, 536)
+
+[node name="River_animation" type="AnimatedSprite2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(13.5, 24.6)
+scale = Vector2(2, 2)
+sprite_frames = SubResource("SpriteFrames_8fchn")
+
+[node name="No_tree_area" type="Area2D" parent="."]
+unique_name_in_owner = true
+collision_layer = 16
+collision_mask = 16
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="No_tree_area"]
+position = Vector2(-1023.5, -506.4)
+polygon = PackedVector2Array(540, 497, 565, 441, 668, 404, 832, 358, 1056, 319, 1170, 319, 1270, 333, 1366, 372, 1441, 422, 1505, 497, 1538, 575, 1526, 596, 1483, 620, 1374, 645, 1295, 645, 1230, 641, 1035, 612, 998, 612, 960, 617, 942, 629, 940, 645, 946, 672, 970, 709, 972, 732, 959, 741, 928, 740, 869, 725, 789, 705, 715, 680, 613, 633, 556, 587, 533, 536)
+
+[node name="Path2D" type="Path2D" parent="."]
+curve = SubResource("Curve2D_1kt54")
+
+[node name="unique_river_path" type="PathFollow2D" parent="Path2D"]
+unique_name_in_owner = true
+position = Vector2(-426, -91)
+rotation = -0.264365
+
+[connection signal="body_entered" from="No_tree_area" to="." method="_on_no_tree_area_body_entered"]

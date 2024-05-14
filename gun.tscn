@@ -1,0 +1,158 @@
+[gd_scene load_steps=32 format=3 uid="uid://c2krbs78e3qhv"]
+
+[ext_resource type="Script" path="res://gun.gd" id="1_x8fgi"]
+[ext_resource type="Texture2D" uid="uid://dndskj1lv6i6n" path="res://r_arm.svg" id="2_73was"]
+[ext_resource type="Texture2D" uid="uid://cvyfmxrtwrtmb" path="res://laser-shooter-anim/laser-shooter2 (1).svg" id="3_gikxv"]
+[ext_resource type="Texture2D" uid="uid://c8bwaxq6pj17r" path="res://laser-shooter-anim/laser-shooter3.svg" id="4_knicj"]
+[ext_resource type="Texture2D" uid="uid://2hapaxc02ol" path="res://laser-shooter-anim/laser-shooter4.svg" id="5_wkr15"]
+[ext_resource type="Texture2D" uid="uid://bl5fvsd3nyx3i" path="res://laser-shooter-anim/laser-shooter5.svg" id="6_dfx2t"]
+[ext_resource type="Texture2D" uid="uid://dx65fgo4eb2ew" path="res://laser-shooter-anim/laser-shooter7.svg" id="8_tpl8k"]
+[ext_resource type="Texture2D" uid="uid://dur8xuaq8ptty" path="res://laser-shooter-anim/laser-shooter8.svg" id="9_ondrf"]
+[ext_resource type="Texture2D" uid="uid://cqu4ge3k0ut3y" path="res://laser-shooter-anim/laser-shooter9.svg" id="10_q6ur3"]
+[ext_resource type="Texture2D" uid="uid://boloe5xlxek60" path="res://laser-shooter-anim/laser-shooter10.svg" id="11_rw4f2"]
+[ext_resource type="Texture2D" uid="uid://sliynxmilpvr" path="res://laser-shooter-anim/laser-shooter11.svg" id="12_vi0k0"]
+[ext_resource type="Texture2D" uid="uid://bx0hpuyhglgdg" path="res://laser-shooter-anim/laser-shooter12.svg" id="13_s4031"]
+[ext_resource type="Texture2D" uid="uid://dvnowkiliit5e" path="res://laser-shooter-anim/laser-shooter13.svg" id="14_ms06x"]
+[ext_resource type="Texture2D" uid="uid://bh4pro0s1tsvr" path="res://laser-shooter-anim/laser-shooter14.svg" id="15_g1b3n"]
+[ext_resource type="Texture2D" uid="uid://ck2ferrkqkkhs" path="res://laser-shooter-anim/laser-shooter15.svg" id="16_8365g"]
+[ext_resource type="Texture2D" uid="uid://dyg5d114r1qpm" path="res://laser-shooter-anim/laser-shooter16.svg" id="17_cflo5"]
+[ext_resource type="Texture2D" uid="uid://cyjdob0c1btve" path="res://laser-shooter-anim/laser-shooter17.svg" id="18_4keqe"]
+[ext_resource type="Texture2D" uid="uid://ufdnibk3vvsv" path="res://laser-shooter-anim/laser-shooter18.svg" id="19_umpvk"]
+[ext_resource type="Texture2D" uid="uid://ft2a1pagjsnj" path="res://laser-shooter-anim/laser-shooter19.svg" id="20_n5tsg"]
+[ext_resource type="Texture2D" uid="uid://b2kkjpeai6wnh" path="res://laser-shooter-anim/laser-shooter20.svg" id="21_ofh1u"]
+[ext_resource type="Texture2D" uid="uid://cl21vfcsvpb4y" path="res://laser-shooter-anim/laser-shooter21.svg" id="22_o0va3"]
+[ext_resource type="Texture2D" uid="uid://b3h3e1272d5nr" path="res://laser-shooter-anim/laser-shooter22.svg" id="23_66g82"]
+[ext_resource type="Texture2D" uid="uid://28jyyhrm48ng" path="res://laser-shooter-anim/laser-shooter.svg" id="24_ff3k0"]
+[ext_resource type="Texture2D" uid="uid://ddwlafes8hkdk" path="res://laser-shooter-anim/laser-shooter23.svg" id="24_tg4dw"]
+[ext_resource type="Texture2D" uid="uid://bt7ipiodkuh5w" path="res://laser-shooter-anim/laser-shooter27.svg" id="25_1nlfc"]
+[ext_resource type="Texture2D" uid="uid://7bqtdjmef2x1" path="res://laser-shooter-anim/laser-shooter24.svg" id="26_fhjll"]
+[ext_resource type="Texture2D" uid="uid://c6jjki6lwgyn3" path="res://laser-shooter-anim/laser-shooter25.svg" id="27_tttyv"]
+[ext_resource type="Texture2D" uid="uid://c4rfpppf312il" path="res://laser-shooter-anim/laser-shooter26.svg" id="28_hk7i4"]
+[ext_resource type="Texture2D" uid="uid://dqp1ioog1f2hf" path="res://laser-shooter-anim/laser-shooter28.svg" id="29_0hw2s"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_42lpy"]
+radius = 566.072
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_b41ib"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_gikxv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_ff3k0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_knicj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_wkr15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_dfx2t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_tpl8k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_ondrf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_q6ur3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_rw4f2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_vi0k0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_s4031")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_ms06x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_g1b3n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_8365g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_cflo5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_4keqe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_umpvk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_n5tsg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_ofh1u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_o0va3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_66g82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_tg4dw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_1nlfc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_fhjll")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_tttyv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_hk7i4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_0hw2s")
+}],
+"loop": true,
+"name": &"default",
+"speed": 52.0
+}]
+
+[node name="Gun" type="Area2D"]
+collision_layer = 0
+collision_mask = 2
+script = ExtResource("1_x8fgi")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_42lpy")
+
+[node name="WeaponPivot" type="Marker2D" parent="."]
+
+[node name="RArm" type="Sprite2D" parent="WeaponPivot"]
+position = Vector2(37.7256, 0.874993)
+rotation = -1.5708
+scale = Vector2(0.3, 0.225902)
+texture = ExtResource("2_73was")
+
+[node name="animated_pistol" type="AnimatedSprite2D" parent="WeaponPivot"]
+unique_name_in_owner = true
+position = Vector2(111, -10)
+scale = Vector2(0.37996, 0.401376)
+sprite_frames = SubResource("SpriteFrames_b41ib")
+frame_progress = 0.733015
+
+[node name="ShootingPoint" type="Marker2D" parent="WeaponPivot/animated_pistol"]
+unique_name_in_owner = true
+show_behind_parent = true
+position = Vector2(171.4, 2.49143)
+scale = Vector2(0.926582, 0.877143)
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.5
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
